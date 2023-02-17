@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+// definiowanie zmiennej 'filePatch'
 const filePath = process.argv[1];
 
 fs.stat(filePath, (err, stats) => {
